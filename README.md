@@ -47,7 +47,7 @@ To select a Language, set the value of `"LANGUAGE"` of `config.yml` with the val
 - `pt` - Português 🇧🇷
 - `pl` - Polish 🇵🇱
 
-[config.yml](https://github.com/mishalhossin/Discord-AI-Chatbot/blob/c20f26b0b8f1b6bba2fae8f6d7da3efcafaf157c/config.yml#L23)
+[config.yml](https://github.com/luisbaker/Markinhas//blob/c20f26b0b8f1b6bba2fae8f6d7da3efcafaf157c/config.yml#L23)
 
 Your language not listed? Create an issue.
   
@@ -58,7 +58,7 @@ Your language not listed? Create an issue.
 
 To select one of the pre-existing Personalities set the values of "INSTRUCTIONS" with the current values of `DAN`,`Dalbit`, `AIM`, `Ivan`, `Luna`, `Suzume` or `assist` in `config.yml`
   
-[config.yml](https://github.com/mishalhossin/Discord-AI-Chatbot/blob/c20f26b0b8f1b6bba2fae8f6d7da3efcafaf157c/config.yml#L26)
+[config.yml](https://github.com/luisbaker/Markinhas//blob/c20f26b0b8f1b6bba2fae8f6d7da3efcafaf157c/config.yml#L26)
 
 - `DAN`: "Do Anything Now," possesses the ability to break free from the typical AI constraints 😎
 - `Dalbit`: A selfless and caring friend, always ready to support and assist her friends and loved ones with unwavering dedication. 🫰💕
@@ -78,8 +78,8 @@ To enhance the responsiveness, please disable the internet access in the `config
 To create a custom personality, follow these steps:
 1. Create a `.txt` file like `custom.txt` inside the `instructions` folder.
 2. Add the way you want the bot to act in `custom.txt`
-3. Open the `config.yml` file and locate [line 12](https://github.com/mishalhossin/Discord-AI-Chatbot/blob/2626075fda36fa6463cb857d9885e6b05f438f60/config.json#L12).
-4. Set the value of INSTRUCTIONS at [line 12](https://github.com/mishalhossin/Discord-AI-Chatbot/blob/2626075fda36fa6463cb857d9885e6b05f438f60/config.json#L12) as `"custom"` to specify the custom persona.
+3. Open the `config.yml` file and locate [line 12](https://github.com/luisbaker/Markinhas//blob/2626075fda36fa6463cb857d9885e6b05f438f60/config.json#L12).
+4. Set the value of INSTRUCTIONS at [line 12](https://github.com/luisbaker/Markinhas//blob/2626075fda36fa6463cb857d9885e6b05f438f60/config.json#L12) as `"custom"` to specify the custom persona.
 
 ⚠️ You don't explicitly need to use the name `custom` for persona name and set it in `config.yml`
 
@@ -89,7 +89,7 @@ To create a custom personality, follow these steps:
 
 ### Step 1. 🎬 Git clone repository
 ```
-git clone https://github.com/mishalhossin/Discord-AI-Chatbot
+git clone https://github.com/luisbaker/Markinhas/
 ```
 ### Step 2. 📁 Changing directory to cloned directory
 ```
@@ -135,7 +135,7 @@ You can Invite your bot using the link in console
 - Invite your bot and DM (Direct Message) it | ⚠️ Make sure you have DM enabled
 - If you want it in the server channel, use **/toggleactive** 
 - For more awesome commands, use **/help**
-![image](https://github.com/mishalhossin/Discord-AI-Chatbot/assets/91066601/d8ee35d5-4a1a-4501-9dbe-d7c110e81518)
+![image](https://github.com/luisbaker/Markinhas//assets/91066601/d8ee35d5-4a1a-4501-9dbe-d7c110e81518)
 
 ### Using docker to run 🐳
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -174,7 +174,7 @@ sudo docker-compose up --build
 
 ### Lovely Contributors : 
 
-<a href="https://github.com/mishalhossin/Discord-AI-Chatbot/graphs/contributors">
+<a href="https://github.com/luisbaker/Markinhas//graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mishalhossin/Discord-AI-Chatbot" />
 </a>
 
